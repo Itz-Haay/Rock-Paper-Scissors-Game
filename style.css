@@ -37,15 +37,15 @@ button:hover {
     transform: translateY(10px);
 }
 
-.rock {
+#Rock {
     background-color: brown;
 }
 
-.paper {
+#Paper {
     background-color: cornflowerblue;
 }
 
-.scissors {
+#Scissors {
     background-color: darkgreen;
 }
 
@@ -55,4 +55,36 @@ button:hover {
 
 #comp-score {
     color: red;
+}
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.btn {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0;
+    cursor: pointer;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.new-game-btn {
+    width: 150px;
+}
+
+.reset-game-btn {
+    width: 130px;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
 }
