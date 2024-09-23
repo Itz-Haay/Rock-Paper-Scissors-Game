@@ -1,0 +1,58 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    font-size: 3rem;
+    margin: 10px 0.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+    transform: translateY(10px);
+}
+
+.rock {
+    background-color: brown;
+}
+
+.paper {
+    background-color: cornflowerblue;
+}
+
+.scissors {
+    background-color: darkgreen;
+}
+
+#user-score {
+    color: green;
+}
+
+#comp-score {
+    color: red;
+}
